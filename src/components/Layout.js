@@ -4,7 +4,7 @@ import {IdentityContextProvider} from 'react-netlify-identity-widget'
 
 import './layout.css'
 const Layout = ({children}) => (
-  <IdentityContextProvider url="https://tomsah-jamstack-intro-auth.netlify.com">
+  <IdentityContextProvider url="https://tomsah-jamstack-intro-auth.netlify.app">
     <header>
       <Link to="/"> JAMstack App</Link>
     </header>
